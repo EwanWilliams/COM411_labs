@@ -2,9 +2,11 @@ def started(msg=""):
     print("-"*120)
     print(f"Operation started: {msg}...\n")
 
+
 def completed():
     print("\nOperation completed.")
     print("-"*120)
+
 
 def error(msg):
     print(f"Error! {msg}")
